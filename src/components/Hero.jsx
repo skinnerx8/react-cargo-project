@@ -20,7 +20,7 @@ const Hero = () => {
             loop
           />
         </div>
-        <button className='bg-[#4ED02B] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Discover the Upside</button>
+        <button className='bg-[#4ED02B] w-[200px] rounded-md font-medium my-6 py-3'>Discover the Upside</button>
       </div>
     </div>
   );
