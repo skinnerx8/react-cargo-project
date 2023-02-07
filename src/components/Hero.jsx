@@ -1,11 +1,10 @@
 import React from 'react';
 import Typed from 'react-typed';
-import Ship from '../assets/ship.jpg'
 
 const Hero = () => {
   return (
     <div className='text-white flex flex-col font-sans min-h-96 bg-gray-50 lg:pt-1 lg:pb-20 lg:bg-hero lg:bg-cover' >
-      <div className='max-w-[1400px] mt-[-120px] w-full h-screen mx-auto text-center flex flex-col justify-center items-start'>
+      <div className='max-w-[1305px] mt-[-120px] w-full h-screen mx-auto text-center flex flex-col justify-center items-start'>
         <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-6'>
             Delivered anywhere
         </h1>
@@ -21,7 +20,7 @@ const Hero = () => {
             loop
           />
         </div>
-        <button className='bg-[#4ED02B] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Get Started</button>
+        <button className='bg-[#4ED02B] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Discover the Upside</button>
       </div>
     </div>
   );
