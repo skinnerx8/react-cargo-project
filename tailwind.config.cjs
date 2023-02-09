@@ -6,6 +6,10 @@ module.exports = withMT({
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    input: {
+      p: "4",
+      // rest of the breakpoints
+    },
     extend: {
       backgroundImage: theme => ({
        'hero': "url('/src/assets/ship.jpg')",
